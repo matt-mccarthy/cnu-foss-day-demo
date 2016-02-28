@@ -99,7 +99,7 @@ public class Car
 		return -1;
 	}
 
-	public void setNumSeats()
+	public void setNumSeats(int in)
 	{
 		// TODO: set the number of seats
 	}
@@ -121,7 +121,7 @@ public class Car
 		return -1;
 	}
 
-	public void setNumCollisions()
+	public void setNumCollisions(int in)
 	{
 		// TODO: set the number of collisions
 	}
