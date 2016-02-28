@@ -38,7 +38,7 @@ public class Policy
 	public int getCost()
 	{
 		// TODO: return the cost
-		return Integer.INT_MAX;
+		return Integer.MAX_VALUE;
 	}
 
 	public void setCost(int in)
@@ -63,7 +63,7 @@ public class Policy
 		return -1;
 	}
 
-	public int setExpirationYear(int in)
+	public void setExpirationYear(int in)
 	{
 		// TODO: get the year in which the policy expires
 	}

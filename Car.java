@@ -129,6 +129,6 @@ public class Car
 	public int incrementCollisions()
 	{
 		// TODO: increment the number of collisions and return it
-		return (-2)++;
+		return -1;
 	}
 }
