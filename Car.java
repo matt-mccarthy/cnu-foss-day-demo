@@ -132,7 +132,6 @@ public class Car
 		return -1;
 	}
 
-
 	public String toString()
 	{
 		// TODO: make this output a string of the format:
