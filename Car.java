@@ -131,4 +131,12 @@ public class Car
 		// TODO: increment the number of collisions and return it
 		return -1;
 	}
+
+
+	public String toString()
+	{
+		// TODO: make this output a string of the format:
+		//       year make model vin
+		return null;
+	}
 }
