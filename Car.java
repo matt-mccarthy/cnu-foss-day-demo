@@ -13,7 +13,16 @@ public class Car
 
 	public Car()
 	{
-		// TODO: Initialize everything to 0 or ""
+		make = "";
+		model = "";
+		licensePlate = "";
+		vin = "";
+		state = "";
+		year = 0;
+		numDoors = 0;
+		numSeats = 0;
+		mileage = 0;
+		numCollisions = 0;
 	}
 
 	public String getMake()
