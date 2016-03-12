@@ -13,17 +13,6 @@ public class Person
 	public Person()
 	{
 		// TODO: Initialize everything to "", '', 0, or false
-	
-		lastName ="";
-		firstName ="";
-		middleInitial =' ';
-
-		age = 0;
-		licenseNumber ="";
-		state = "";
-		numCollisions = 0;
-		yearLastCollision = 0;
-		needsGlasses = false;
 	}
 
 	public String getLastName()
