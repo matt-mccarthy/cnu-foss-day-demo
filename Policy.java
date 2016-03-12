@@ -11,28 +11,35 @@ public class Policy
 	public Policy()
 	{
 		// TODO: initialize everything to a new list or 0
+		coveredPeople = new ArrayList<Person>();
+		coveredVehicles = new ArrayList<Car>();
+		cost = 0;
+		effectiveYear = 0;
+		expirationYear = 0;
 	}
 
 	public void addPerson(Person p)
 	{
 		// TODO: add p to the list of people
+		coveredPeople.add(p);
 	}
 
 	public void addVehicle(Car c)
 	{
 		// TODO: add c to the list of vehicles
+		coveredVehicles.add(c);
 	}
 
 	public ArrayList<Person> getPeople()
 	{
 		// TODO: return the list of covered people
-		return null;
+		return coveredPeople;
 	}
 
 	public ArrayList<Car> getCars()
 	{
 		// TODO: return the list of covered vehicles
-		return null;
+		return coveredVehicles;
 	}
 
 	public int getCost()
@@ -44,27 +51,30 @@ public class Policy
 	public void setCost(int in)
 	{
 		// TODO: set the cost
+		cost = in;
 	}
 
 	public int getEffectiveYear()
 	{
 		// TODO: get the year in which the policy goes into effect
-		return -1;
+		return effectiveYear;
 	}
 
 	public void setEffectiveYear(int in)
 	{
 		// TODO: set the year in which the policy goes into effect
+		effectiveYear = in;
 	}
 
 	public int getExpirationYear()
 	{
 		// TODO: get the year in which the policy expires
-		return -1;
+		return expirationYear;
 	}
 
 	public void setExpirationYear(int in)
 	{
 		// TODO: get the year in which the policy expires
+		expirationYear = in;
 	}
 }
