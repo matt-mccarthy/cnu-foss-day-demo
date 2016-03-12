@@ -28,8 +28,7 @@ public class Person
 
 	public String getLastName()
 	{
-		// TODO: get the last name
-		return null;
+		return lastName;
 	}
 
 	public void setLastName(String in)
