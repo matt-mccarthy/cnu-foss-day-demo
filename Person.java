@@ -83,7 +83,7 @@ public class Person
 	public String getState()
 	{
 		// TODO: get the state
-		return null;
+		return state;
 	}
 
 	public void setState(String in)
