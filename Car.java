@@ -57,6 +57,7 @@ public class Car
 
 	public void setVIN(String in)
 	{
+		vin = in;
 		// TODO: set the VIN
 	}
 
