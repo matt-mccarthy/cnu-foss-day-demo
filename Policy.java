@@ -59,8 +59,8 @@ public class Policy
 
 	public int getExpirationYear()
 	{
-		// TODO: get the year in which the policy expires
-		return -1;
+		
+	    return expirationYear;
 	}
 
 	public void setExpirationYear(int in)
