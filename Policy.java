@@ -43,7 +43,7 @@ public class Policy
 
 	public void setCost(int in)
 	{
-		// TODO: set the cost
+		cost = in;
 	}
 
 	public int getEffectiveYear()
