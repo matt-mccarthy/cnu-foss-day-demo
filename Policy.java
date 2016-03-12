@@ -38,7 +38,7 @@ public class Policy
 	public int getCost()
 	{
 		// TODO: return the cost
-		return Integer.MAX_VALUE;
+		return cost;
 	}
 
 	public void setCost(int in)
