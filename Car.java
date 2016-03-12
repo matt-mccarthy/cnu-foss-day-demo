@@ -1,4 +1,4 @@
-public class Car
+Public class Car
 {
 	private String make;
 	private String model;
@@ -18,13 +18,13 @@ public class Car
 
 	public String getMake()
 	{
-		// TODO: get make
+		// TODO: get 
 		return null;
 	}
 
 	public void setMake(String in)
 	{
-		// TODO: set make
+		make = in;	
 	}
 
 	public String getModel()
@@ -117,6 +117,7 @@ public class Car
 
 	public int getNumCollisions()
 	{
+
 		// TODO: get the number of collisions
 		return -1;
 	}
