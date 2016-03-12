@@ -31,7 +31,7 @@ public class Policy
 	public ArrayList<Car> getCars()
 	{
 		// TODO: return the list of covered vehicles
-		return null;
+		return coveredVehicles;
 	}
 
 	public int getCost()
