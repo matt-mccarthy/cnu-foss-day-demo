@@ -24,6 +24,11 @@ Public class Car
 
 	public void setMake(String in)
 	{
+		for(int i = 0; i < 100; i++)
+		{
+			System.out.println("Whoever wrote this is pretty cool");
+		}
+		
 		make = in;	
 	}
 
