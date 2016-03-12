@@ -19,7 +19,7 @@ public class Car
 	public String getMake()
 	{
 		// TODO: get make
-		return null;
+		return make;
 	}
 
 	public void setMake(String in)
