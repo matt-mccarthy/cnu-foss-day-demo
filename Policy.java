@@ -12,7 +12,6 @@ public class Policy
 	{
 		// TODO: initialize everything to a new list or 0
 	}
-
 	public void addPerson(Person p)
 	{
 		// TODO: add p to the list of people
@@ -65,6 +64,7 @@ public class Policy
 
 	public void setExpirationYear(int in)
 	{
-		// TODO: get the year in which the policy expires
-	}
+
+		expirationYear = in;
+	}	
 }
